@@ -1,0 +1,154 @@
+FONTLOG for ZenJiaNormHei 0.0.1
+=================================
+
+This file provides detailed information on the ZenJiaNormHei font
+software. This information should be distributed along with the
+ZenJiaNormHei fonts and any derivative works.
+
+Font Information
+-------------------------
+
+The ZenJiaNormHei typeface family is a contemporary sans 
+serif for users of Han characters.
+
+ZenJiaNormHei is a derivative work from Cantarell and cwTeXHeiBold
+. It combined Han characters part of cwTeXHeiBold with Cantarell.
+
+Cantarell was originally designed by Dave Crossland as part 
+of his coursework for the MA Typeface Design programme at 
+the Department of Typography in the University of Reading, 
+England. [1] 
+
+The fonts were initially published on the 6th of July 2009 on
+Dave Crossland's foundry website [2] under the terms of the GNU
+ General Public License version 3. [3] In May 2010 the fonts were 
+republished through Google Web Fonts [4] under the terms of the
+ SIL Open Font License version 1.1. [5] 
+
+cwTeX Chinese fonts were originally published as Type 1 fonts 
+along with cwTeX system, [6] and created by Tsong-Min Wu and 
+Tsong-Huey Wu. Later Edward G.J. Lee converted those fonts into 
+TrueType fonts and discussed with Tsong-Min Wu about the license 
+issue. They decided to use GPL license on 16th of Dec 2004. In 
+order to cover Western characters, CM-LGC Type 1 font by Alexej 
+Kryukov was merged on 21st of Dec 2004. And they merged Koanughi 
+Un's Un-Fonts to cover Korean syllables 27th of Dec 2004. The 
+final work of cwTeX Chinese fonts, including cwTeXMing, cwTeXKai, 
+cwTeXFangSong, cwTeXYen and cwTeXHeiBold, were published on 10th 
+of Jan 2005. 
+
+Cantarell is used by the GNOME project for its user interface, 
+but the default Chinese fonts such as WenQuanYi Zen Hei, 
+WenQuanYi Micro Hei and AR PL UMing provided by major Linux 
+distributions cannot match the style well. Cheng-Chia Tseng 
+did an study and found that Han characters provided by 
+cwTeXHeiBold derived fonts could match Cantarell best, and 
+he published a post on this issue on his blogger. [7] As a 
+result, he decided to combine those two fonts together to 
+provide best experiment for Han Characters users.
+
+Later releases of Cantarell are distributed under OFL 1.1 
+and not compatible with GPL. Cheng-Chia Tseng sent an e-mail 
+to the copyright holders of Han characters of cwTeX Chinese fonts 
+to discuss this license issue on 20th of Feb 2014, and they agreed
+ with the idea to license Han characters part of cwTeX Chinese 
+fonts under the terms of  OFL 1.1. The new combination font is 
+named as “ZenJia Norm Hei”. The initial release of ZenJiaNormHei 
+was published on 27th of April 2014.
+
+[1]: http://www.typedesign.reading.ac.uk
+[2]: http://abattis.org/cantarell
+[3]: http://www.gnu.org/licenses/gpl.html
+[4]: http://www.google.com/webfonts
+[5]: http://scripts.sil.org/OFL
+[6]: http://homepage.ntu.edu.tw/~ntut019/cwtex/cwtex.html
+[7]: http://breezymove.blogspot.tw/2013/11/cantarell.html
+
+                                  * * * 
+
+Developer information
+---------------------
+                     
+Cantarell
+------------
+             
+The original src/Cantarell-Regular.sfd file has the master sources 
+as Cubic (PostScript) Bezier splines. There are temporary layers 
+and a 'Spiro' layer in this file, containing forms used to create 
+the master Cubic Bezier glyphs; the Spiro layer contains forms in 
+Spiro splines, and much of the original typeface design by Dave
+Crossland was done by drawing in Spiro splines. However today the
+master drawing spline format is Cubic Bezier, and Spiro splines
+are used to inform their creation. 
+
+
+ChangeLog
+-------------------------
+
+Please refer to the Git repository changelog at this URL:
+https://github.com/l10n-tw/zenjia-fonts
+
+
+
+Acknowledgements
+-------------------------
+
+Here is a list of major contributors; all contributors are listed
+in the Git repository changelogs.
+
+If you make major modifications be sure to add your name (N), email (E),
+web-address (W) and description (D). This list is sorted by last name
+in alphabetical order.
+
+Cantarell
+------------
+
+N: Dave Crossland
+E: dave@understandinglimited.com
+W: http://abattis.org/cantarell/
+D: Designer - original Latin glyphs
+
+N: Valek Filippov
+E: frob@gnome.org
+W: https://plus.google.com/108983215764171548842/about
+D: Designer - cyrillic
+
+N: Erik Hartenian
+E: infinality@infinality.net
+W: http://infinality.net
+D: Connoisseur of fine font renderding
+
+N: Pooja Saxena
+E: anexasajoop@gmail.com
+W: http://www.poojasaxena.in
+D: Designer - New glyphs and many improvements to weight and metric balance.
+
+N: Jakub Steiner
+E: jimmac@gmail.com
+W: http://jimmac.musichall.cz
+D: Designer - many improvements and GNOME standards engineering
+
+cwTeXHeiB
+------------
+
+N: Edward G.J. Lee
+E: edt1023@info.sayya.org
+W: http://edt1023.sayya.org/
+D: Designer
+
+N: Tsong-Huey Wu
+E: thwu@mail.chna.edu.tw
+W: unknown
+D: Designer
+
+N: Tsong-Min Wu
+E: ntut019@ntu.edu.tw
+W: http://homepage.ntu.edu.tw/~ntut019/
+D: Designer
+
+ZenJiaNormHei
+------------
+N: Cheng-Chia Tseng
+E: pswo10680@gmail.com
+W: http://breezymove.blogspot.tw/
+D: Designer
