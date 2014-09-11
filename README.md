@@ -3,7 +3,9 @@
 
 靜嘉的概念即「靜」與「嘉」，希望能長久持續下去，默默做出好東西。
 
-以往各大 Linux 散布版皆因設定不良、決策問題等，而導致 sans-serif、serif、monospace 中西文風格不同，使字型搭配失敗，讓閱讀體驗低落且缺乏協調感。為解決此嚴重問題，此專案於焉誕生。常見的可怕搭配如：fedora 在正體中文 (繁體中文) 環境下，GNOME 專案所採用的 Cantarell 會搭配 AR PL UMing 顯示、預設無襯線字體 (sans-serif) DejaVu Sans 搭配 AR PL UMing、預設等寬字體 (monospace) DejaVu Sans Mono 搭配 AR PL UMing；而 f21 起無襯線、襯線、等寬字體將改使用 Source Han Sans TW。
+以往各大 Linux 散布版皆因設定不良、決策問題等，而導致 sans-serif、serif、monospace 中西文風格不同，使字型搭配失敗，讓閱讀體驗低落且缺乏協調感。為解決此嚴重問題，此專案於焉誕生。
+
+常見的可怕搭配如：fedora 在正體中文 (繁體中文) 環境下，GNOME 專案所採用的 Cantarell 會搭配 AR PL UMing 顯示、預設無襯線字體 (sans-serif) DejaVu Sans 搭配 AR PL UMing、預設等寬字體 (monospace) DejaVu Sans Mono 搭配 AR PL UMing；而 f21 起無襯線、襯線、等寬字體將全面改用 Source Han Sans TW。
 
 本專案的初始項目係針對 GNOME 所採用之 Cantarell，將目前所見之自由中文字型經過一連串比照後，總結出最能與之搭配的為 cwTeX Q Hei，遂以黑體為起頭開始製作。
 未來將針對其他諸如 DejaVu Sans、DejaVu Serif、DejaVu Sans Mono、Raleway 等，陸續納入明體、等寬黑體等。但鑑於此專案目前為個人獨立專案，以及現有自由中文字型不多，風格可能難以搭配，因此短時間內不見得真的會有，且讓時間證明一切。
