@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 Cheng-Chia Tseng <pswo10680@gmail.com> -->
+<component type="font">
+  <id>ZenJia Hei</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>ZenJia Hei</name>
+  <summary>The ZenJia Hei fonts are contemporary sans-serif for users of Han characters.</summary>
+  <description>
+    <p>
+      The ZenJia Hei fonts are designed to match Cantarell for harmonious reading of compound text made 
+      of Chinese and Western.
+    </p>
+  </description>
+  <updatecontact>pswo10680_at_gmail_dot_com</updatecontact>
+  <url type="homepage">https://github.com/l10n-tw/zenjia-fonts/</url>
+</component>
