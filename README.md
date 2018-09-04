@@ -20,7 +20,7 @@
 
 ## 目前項目
 ### 靜嘉黑體 ZenJia Hei
-由 Cantarell 與 cwTeX Q Hei 結合而成，風格相當匹配。
+由 Cantarell 與 cwTeX Q Hei 結合而成，風格相當匹配，採 OFL 授權。
 礙於時間與精力不足，目前已不再維護。
 
 ### 靜嘉ㄅㄆㄇ體 ZenJia Bopomo
